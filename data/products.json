@@ -1,0 +1,368 @@
+[
+  {
+    "id": "1",
+    "name": "iPhone 15 Pro",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "price": 999.99,
+    "originalPrice": 1099.99,
+    "description": "The iPhone 15 Pro features the powerful A17 Pro chip, professional camera system with 3x telephoto zoom, and titanium design. Perfect for photography enthusiasts and professionals.",
+    "image": "https://images.unsplash.com/photo-1592286968481-d7b5b5b7e1c0?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.8,
+      "count": 2547
+    },
+    "features": ["A17 Pro chip", "48MP camera", "Titanium design", "5G connectivity"],
+    "inStock": true,
+    "tags": ["apple", "smartphone", "premium", "photography"],
+    "brand": "Apple"
+  },
+  {
+    "id": "2",
+    "name": "Samsung Galaxy S24 Ultra",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "price": 1199.99,
+    "originalPrice": 1299.99,
+    "description": "Samsung's flagship smartphone with S Pen, 200MP camera, and Galaxy AI features. Ideal for productivity and creative work.",
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.7,
+      "count": 1823
+    },
+    "features": ["S Pen included", "200MP camera", "Galaxy AI", "5000mAh battery"],
+    "inStock": true,
+    "tags": ["samsung", "smartphone", "premium", "productivity"],
+    "brand": "Samsung"
+  },
+  {
+    "id": "3",
+    "name": "MacBook Pro 14-inch M3",
+    "category": "Electronics",
+    "subcategory": "Laptops",
+    "price": 1999.99,
+    "originalPrice": 2199.99,
+    "description": "The MacBook Pro with M3 chip delivers exceptional performance for professionals. Features Liquid Retina XDR display and up to 22 hours of battery life.",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.9,
+      "count": 1456
+    },
+    "features": ["M3 chip", "14-inch Liquid Retina XDR", "22-hour battery", "16GB RAM"],
+    "inStock": true,
+    "tags": ["apple", "laptop", "professional", "performance"],
+    "brand": "Apple"
+  },
+  {
+    "id": "4",
+    "name": "Sony WH-1000XM5 Headphones",
+    "category": "Electronics",
+    "subcategory": "Audio",
+    "price": 399.99,
+    "originalPrice": 449.99,
+    "description": "Industry-leading noise canceling headphones with exceptional sound quality. Perfect for travel and focused work sessions.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.6,
+      "count": 3241
+    },
+    "features": ["Active Noise Canceling", "30-hour battery", "Multipoint connection", "Quick charge"],
+    "inStock": true,
+    "tags": ["sony", "headphones", "noise-canceling", "premium"],
+    "brand": "Sony"
+  },
+  {
+    "id": "5",
+    "name": "iPad Pro 12.9-inch M2",
+    "category": "Electronics",
+    "subcategory": "Tablets",
+    "price": 1099.99,
+    "originalPrice": 1199.99,
+    "description": "The ultimate iPad experience with M2 chip, Liquid Retina XDR display, and all-day battery life. Perfect for creative professionals.",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.8,
+      "count": 987
+    },
+    "features": ["M2 chip", "12.9-inch Liquid Retina XDR", "Apple Pencil support", "Thunderbolt port"],
+    "inStock": true,
+    "tags": ["apple", "tablet", "creative", "professional"],
+    "brand": "Apple"
+  },
+  {
+    "id": "6",
+    "name": "Nike Air Max 270",
+    "category": "Clothing & Shoes",
+    "subcategory": "Sneakers",
+    "price": 150.00,
+    "originalPrice": 180.00,
+    "description": "Lifestyle sneaker with large Air unit in the heel for all-day comfort. Perfect for casual wear and light workouts.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.4,
+      "count": 5632
+    },
+    "features": ["Air Max technology", "Breathable mesh", "Durable rubber sole", "Iconic design"],
+    "inStock": true,
+    "tags": ["nike", "sneakers", "comfort", "lifestyle"],
+    "brand": "Nike",
+    "sizes": ["7", "8", "9", "10", "11", "12"]
+  },
+  {
+    "id": "7",
+    "name": "Adidas Ultraboost 22",
+    "category": "Clothing & Shoes",
+    "subcategory": "Running Shoes",
+    "price": 190.00,
+    "originalPrice": 220.00,
+    "description": "High-performance running shoes with responsive Boost midsole and Primeknit upper. Designed for serious runners.",
+    "image": "https://images.unsplash.com/photo-1608667508764-33cf0726d7c4?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.7,
+      "count": 2341
+    },
+    "features": ["Boost midsole", "Primeknit upper", "Continental rubber outsole", "Torsion system"],
+    "inStock": true,
+    "tags": ["adidas", "running", "performance", "boost"],
+    "brand": "Adidas",
+    "sizes": ["7", "8", "9", "10", "11", "12"]
+  },
+  {
+    "id": "8",
+    "name": "Levi's 501 Original Jeans",
+    "category": "Clothing & Shoes",
+    "subcategory": "Jeans",
+    "price": 89.99,
+    "originalPrice": 109.99,
+    "description": "The original blue jean since 1873. Classic straight fit with timeless style that never goes out of fashion.",
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.3,
+      "count": 4187
+    },
+    "features": ["100% cotton", "Straight leg", "Button fly", "Classic 5-pocket design"],
+    "inStock": true,
+    "tags": ["levis", "jeans", "classic", "denim"],
+    "brand": "Levi's",
+    "sizes": ["28", "30", "32", "34", "36", "38"]
+  },
+  {
+    "id": "9",
+    "name": "The Psychology of Money",
+    "category": "Books",
+    "subcategory": "Finance",
+    "price": 16.99,
+    "originalPrice": 19.99,
+    "description": "Timeless lessons on wealth, greed, and happiness by Morgan Housel. A must-read for anyone interested in financial wisdom.",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.8,
+      "count": 12847
+    },
+    "features": ["Bestseller", "Financial wisdom", "Easy to read", "Real-world examples"],
+    "inStock": true,
+    "tags": ["finance", "psychology", "bestseller", "investing"],
+    "brand": "Harriman House",
+    "author": "Morgan Housel"
+  },
+  {
+    "id": "10",
+    "name": "Atomic Habits",
+    "category": "Books",
+    "subcategory": "Self-Help",
+    "price": 14.99,
+    "originalPrice": 17.99,
+    "description": "An easy and proven way to build good habits and break bad ones by James Clear. Transform your life with tiny changes.",
+    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.9,
+      "count": 18923
+    },
+    "features": ["#1 New York Times bestseller", "Practical strategies", "Science-based", "Life-changing"],
+    "inStock": true,
+    "tags": ["habits", "self-improvement", "bestseller", "productivity"],
+    "brand": "Avery",
+    "author": "James Clear"
+  },
+  {
+    "id": "11",
+    "name": "Instant Pot Duo 7-in-1",
+    "category": "Home & Garden",
+    "subcategory": "Kitchen Appliances",
+    "price": 99.99,
+    "originalPrice": 129.99,
+    "description": "Multi-functional pressure cooker that replaces 7 kitchen appliances. Perfect for busy families and meal prep enthusiasts.",
+    "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.5,
+      "count": 8734
+    },
+    "features": ["7 functions in 1", "6-quart capacity", "Smart programming", "Dishwasher safe"],
+    "inStock": true,
+    "tags": ["instant-pot", "kitchen", "pressure-cooker", "convenience"],
+    "brand": "Instant Pot"
+  },
+  {
+    "id": "12",
+    "name": "Dyson V15 Detect Vacuum",
+    "category": "Home & Garden",
+    "subcategory": "Cleaning",
+    "price": 749.99,
+    "originalPrice": 849.99,
+    "description": "Advanced cordless vacuum with laser detection technology. Reveals hidden dust and delivers powerful suction.",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.6,
+      "count": 1234
+    },
+    "features": ["Laser dust detection", "60 minutes runtime", "LCD screen", "Whole-machine filtration"],
+    "inStock": true,
+    "tags": ["dyson", "vacuum", "cordless", "technology"],
+    "brand": "Dyson"
+  },
+  {
+    "id": "13",
+    "name": "Philips Hue Smart Bulbs Starter Kit",
+    "category": "Home & Garden",
+    "subcategory": "Smart Home",
+    "price": 199.99,
+    "originalPrice": 249.99,
+    "description": "Smart lighting system with 16 million colors. Control with your phone or voice commands for the perfect ambiance.",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.4,
+      "count": 2156
+    },
+    "features": ["16 million colors", "Voice control", "App control", "Energy efficient"],
+    "inStock": true,
+    "tags": ["philips", "smart-home", "lighting", "automation"],
+    "brand": "Philips"
+  },
+  {
+    "id": "14",
+    "name": "Peloton Bike+",
+    "category": "Sports & Fitness",
+    "subcategory": "Exercise Equipment",
+    "price": 2495.00,
+    "originalPrice": 2695.00,
+    "description": "Premium indoor bike with rotating HD touchscreen and access to live and on-demand classes. Transform your home fitness.",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.7,
+      "count": 892
+    },
+    "features": ["Rotating HD touchscreen", "Live classes", "Auto-resistance", "Heart rate monitor"],
+    "inStock": true,
+    "tags": ["peloton", "fitness", "bike", "premium"],
+    "brand": "Peloton"
+  },
+  {
+    "id": "15",
+    "name": "Yeti Rambler 20oz Tumbler",
+    "category": "Sports & Fitness",
+    "subcategory": "Drinkware",
+    "price": 34.99,
+    "originalPrice": 39.99,
+    "description": "Durable stainless steel tumbler with double-wall vacuum insulation. Keeps drinks hot or cold for hours.",
+    "image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d7e?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.8,
+      "count": 5643
+    },
+    "features": ["Double-wall insulation", "Dishwasher safe", "Durable construction", "No-sweat design"],
+    "inStock": true,
+    "tags": ["yeti", "tumbler", "insulated", "durable"],
+    "brand": "Yeti"
+  },
+  {
+    "id": "16",
+    "name": "Nintendo Switch OLED",
+    "category": "Electronics",
+    "subcategory": "Gaming",
+    "price": 349.99,
+    "originalPrice": 399.99,
+    "description": "Enhanced Nintendo Switch with vibrant OLED screen and improved audio. Perfect for gaming on the go or at home.",
+    "image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.7,
+      "count": 3421
+    },
+    "features": ["7-inch OLED screen", "Enhanced audio", "64GB storage", "Adjustable stand"],
+    "inStock": true,
+    "tags": ["nintendo", "gaming", "portable", "oled"],
+    "brand": "Nintendo"
+  },
+  {
+    "id": "17",
+    "name": "Ray-Ban Aviator Sunglasses",
+    "category": "Clothing & Shoes",
+    "subcategory": "Accessories",
+    "price": 154.99,
+    "originalPrice": 189.99,
+    "description": "Iconic aviator sunglasses with classic teardrop shape and superior UV protection. A timeless fashion statement.",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.5,
+      "count": 2847
+    },
+    "features": ["100% UV protection", "Classic design", "Durable frame", "Premium lenses"],
+    "inStock": true,
+    "tags": ["rayban", "sunglasses", "classic", "fashion"],
+    "brand": "Ray-Ban"
+  },
+  {
+    "id": "18",
+    "name": "Kindle Paperwhite",
+    "category": "Electronics",
+    "subcategory": "E-readers",
+    "price": 139.99,
+    "originalPrice": 169.99,
+    "description": "Waterproof e-reader with 6.8-inch display and adjustable warm light. Perfect for reading anywhere, anytime.",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.6,
+      "count": 4521
+    },
+    "features": ["Waterproof design", "Adjustable warm light", "Weeks of battery life", "Glare-free display"],
+    "inStock": true,
+    "tags": ["kindle", "e-reader", "reading", "waterproof"],
+    "brand": "Amazon"
+  },
+  {
+    "id": "19",
+    "name": "Patagonia Better Sweater Fleece",
+    "category": "Clothing & Shoes",
+    "subcategory": "Outerwear",
+    "price": 119.99,
+    "originalPrice": 149.99,
+    "description": "Cozy fleece jacket made from recycled polyester. Perfect for outdoor adventures and everyday wear.",
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.7,
+      "count": 1876
+    },
+    "features": ["Recycled polyester", "Full-zip design", "Handwarmer pockets", "Fair Trade Certified"],
+    "inStock": true,
+    "tags": ["patagonia", "fleece", "outdoor", "sustainable"],
+    "brand": "Patagonia",
+    "sizes": ["S", "M", "L", "XL", "XXL"]
+  },
+  {
+    "id": "20",
+    "name": "Hydro Flask 32oz Water Bottle",
+    "category": "Sports & Fitness",
+    "subcategory": "Drinkware",
+    "price": 44.99,
+    "originalPrice": 49.99,
+    "description": "Insulated water bottle that keeps drinks cold for 24 hours or hot for 12 hours. Perfect for active lifestyles.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop",
+    "ratings": {
+      "average": 4.6,
+      "count": 6789
+    },
+    "features": ["TempShield insulation", "Durable construction", "Wide mouth", "Lifetime warranty"],
+    "inStock": true,
+    "tags": ["hydro-flask", "water-bottle", "insulated", "active"],
+    "brand": "Hydro Flask"
+  }
+] 
